@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+    font-family: 'Helvetica Neue', serif;
+    font-style: italic;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0098a2;
+    background-size: cover;
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center;
+    font-size:50px;
+}
+
+#root {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    height: 25px;
+    font-style: italic;
+    font-family: 'Helvetica Neue', serif;
+}
+
+h3{
+    margin: 0px!important;
+}
+
+.react-checkbox-tree {
+    display: -webkit-inline-box !important;
+    font-size: 25px !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.react-checkbox-tree .rct-bare-label :hover{
+    background: aliceblue !important;
+    color: black;
+}
+.react-checkbox-tree .rct-bare-label :focus{
+    background: aliceblue !important;
+    color: black;
+}
+
